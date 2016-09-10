@@ -6,7 +6,7 @@ MAINTAINER zhaoyq zhaoyongqiang@yihecloud.com
 #COPY docker/startup.sh /program/startup.sh
 #RUN chmod +x /program/startup.sh
 
-COPY target/knock-0.0.1-SNAPSHOT.jar /data/knock.jar
+COPY target/knock-0.0.1-SNAPSHOT.jar /data/knock-0.0.1-SNAPSHOT.jar
 
 
 #CMD /program/startup.sh
